@@ -4,6 +4,7 @@
   display: flex;
   font-family: Arial;
   font-size: 14px;
+  height: 186px;
   justify-content: space-between;
   margin: auto 0;
   width: 540px;
@@ -20,6 +21,10 @@
   position: relative;
 }
 
+.text-box p {
+  margin: 10px 0;
+}
+
 h1 {
   font-size: 24px;
   font-style: italic;
@@ -28,6 +33,7 @@ h1 {
 
 .definition-list {
   line-height: 20px;
+  margin-top: 0;
 }
 
 dt {
